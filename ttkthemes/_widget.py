@@ -5,12 +5,12 @@ Copyright (c) 2017-2018 RedFantom
 """
 # Standard library
 import os
-from shutil import copytree, rmtree, copyfile
+from shutil import copytree, rmtree
 # Packages
 from PIL import Image, ImageEnhance
-import ttkthemes._imgops as imgops
-# Own modules
-from ttkthemes import _utils as utils
+# Project Modules
+from . import _utils as utils
+from . import _imgops as imgops
 
 
 class ThemedWidget(object):
